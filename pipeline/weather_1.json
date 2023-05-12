@@ -143,6 +143,9 @@
 				"type": "String"
 			}
 		},
+		"folder": {
+			"name": "src_to_stage_incremental_load_pipelines"
+		},
 		"annotations": []
 	}
 }
