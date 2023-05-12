@@ -9,6 +9,12 @@
 					"referenceName": "src_to_stage_incremental_load_solar_table_1",
 					"type": "PipelineReference"
 				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "src_to_stage_incremental_load_weather_1",
+					"type": "PipelineReference"
+				}
 			}
 		],
 		"type": "ScheduleTrigger",
