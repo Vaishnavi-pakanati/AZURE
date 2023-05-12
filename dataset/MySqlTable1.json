@@ -1,0 +1,16 @@
+{
+	"name": "MySqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySql1selfhost",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`solar_plant_1`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
