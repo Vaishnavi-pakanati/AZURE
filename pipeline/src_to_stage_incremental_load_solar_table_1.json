@@ -1,5 +1,5 @@
 {
-	"name": "solar_table_1",
+	"name": "src_to_stage_incremental_load_solar_table_1",
 	"properties": {
 		"activities": [
 			{

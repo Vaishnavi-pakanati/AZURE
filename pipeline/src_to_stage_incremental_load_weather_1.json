@@ -1,5 +1,5 @@
 {
-	"name": "weather_1",
+	"name": "src_to_stage_incremental_load_weather_1",
 	"properties": {
 		"activities": [
 			{
