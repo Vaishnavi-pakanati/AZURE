@@ -26,16 +26,6 @@
 				}
 			},
 			{
-				"name": "Set variable1",
-				"type": "SetVariable",
-				"dependsOn": [],
-				"userProperties": [],
-				"typeProperties": {
-					"variableName": "temp",
-					"value": "'"
-				}
-			},
-			{
 				"name": "Copy data1",
 				"type": "Copy",
 				"dependsOn": [
@@ -101,7 +91,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"folder": {
-								"value": "@concat('solar/weather_1/as_on_date=',\nformatDateTime(utcnow(),'yyyy-MM-dd'))",
+								"value": "@concat('stage_layer/weather/weather_1/as_on_date=',\nformatDateTime(utcnow(),'yyyy-MM-dd'))",
 								"type": "Expression"
 							},
 							"file_name": "weather_1"
@@ -135,6 +125,16 @@
 						"value": "{\n    \"pipeline\":\"@{pipeline().Pipeline}\",\n    \"run_id\":\"@{pipeline().RunId}\",\n    \"time\":\"@{utcnow()}\"\n}",
 						"type": "Expression"
 					}
+				}
+			},
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "temp",
+					"value": "'"
 				}
 			}
 		],
