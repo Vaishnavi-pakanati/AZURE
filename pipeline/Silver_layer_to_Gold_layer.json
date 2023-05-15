@@ -1,0 +1,28 @@
+{
+	"name": "Silver_layer_to_Gold_layer",
+	"properties": {
+		"activities": [
+			{
+				"name": "Trasformations",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/mounikavaishu@outlook.com/Silver_to_Gold Notebook 2023-05-15 14:08:58"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
