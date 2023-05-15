@@ -101,7 +101,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"folder": {
-								"value": "@concat('weather/weather_2/as_on_dt=',formatDateTime(utcnow(),'yyyy-MM-dd'))",
+								"value": "@concat('stage_layer/weather/weather_2/as_on_dt=',formatDateTime(utcnow(),'yyyy-MM-dd'))",
 								"type": "Expression"
 							},
 							"file_name": "weather_2"
