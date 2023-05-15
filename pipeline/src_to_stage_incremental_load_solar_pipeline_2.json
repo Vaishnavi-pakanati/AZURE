@@ -101,7 +101,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"folder": {
-								"value": "@concat('solar/solar_plant_2/as_on_date=',\nformatDateTime(utcnow(),'yyyy-MM-dd'))",
+								"value": "@concat('stage_layer/solar/solar_plant_2/as_on_date=',\nformatDateTime(utcnow(),'yyyy-MM-dd'))",
 								"type": "Expression"
 							},
 							"file_name": "solar_plant_2"
